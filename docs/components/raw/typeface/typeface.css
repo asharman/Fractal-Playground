@@ -1,0 +1,15 @@
+:root {
+    font-family: Helvetica, sans-serif;
+}
+
+:--headings {
+    font-weight: 700;
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+p {
+    font-weight: 300;
+}

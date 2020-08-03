@@ -1,0 +1,24 @@
+:root {
+    /* Colors */
+
+    /* CSS */
+    --apricot: hsla(21, 100%, 85%, 1);
+    --melon: hsla(12, 100%, 82%, 1);
+    --pastel-pink: hsla(358, 60%, 75%, 1);
+    --english-lavender: hsla(348, 25%, 61%, 1);
+    --old-lavender: hsla(263, 6%, 43%, 1);
+}
+
+* {
+    max-width: var(--measure);
+}
+
+html,
+body,
+div,
+header,
+nav,
+main,
+footer {
+    max-width: none;
+}
