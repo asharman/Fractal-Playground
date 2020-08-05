@@ -1,0 +1,10 @@
+{% for color in colors %}
+	<div style="display: grid; grid-template-columns: repeat({{color.length}}, 1fr); margin-bottom: var(--step-1)">
+		{% for shade in color %}
+			<div>
+				<div style="width: 100%; height: var(--step-5); background: var(--{{shade}})"></div>
+				<p class="text-center">{{shade}}</p>
+			</div>
+		{% endfor %}
+	</div>
+{% endfor %}

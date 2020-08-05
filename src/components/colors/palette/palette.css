@@ -1,0 +1,52 @@
+:root {
+    /* Gold */
+    --gold-darkest: #846e00;
+    --gold-darker: #ab9000;
+    --gold-dark: #d3b400;
+    --gold: #fdd918;
+    --gold-light: #ffff4c;
+    --gold-lighter: #ffff74;
+    --gold-lightest: #ff9;
+
+    /* Honey */
+    --honey-darkest: #824400;
+    --honey-darker: #aa6400;
+    --honey-dark: #d38600;
+    --honey: #feaa03;
+    --honey-light: #ffcf3e;
+    --honey-lighter: #fff565;
+    --honey-lightest: #ffff8b;
+
+    /* Sky */
+    --sky-darkest: #005978;
+    --sky-darker: #007a9b;
+    --sky-dark: #009dc0;
+    --sky: #44c2e6;
+    --sky-light: #73e8ff;
+    --sky-lighter: #9dffff;
+    --sky-lightest: #c4ffff;
+
+    /* Wood */
+    --wood-darkest: #2b1f09;
+    --wood-darker: #4a3c27;
+    --wood-dark: #6b5b45;
+    --wood: #8e7c65;
+    --wood-light: #b29f87;
+    --wood-lighter: #d8c4ab;
+    --wood-lightest: #ffead0;
+
+    /* Grays */
+    --white: #fff;
+    --lightest-gray: #dbdbdb;
+    --lighter-gray: #b7b7b7;
+    --light-gray: #959595;
+    --gray: #757575;
+    --dark-gray: #565656;
+    --darker-gray: #393939;
+
+    /* Theme colors */
+    --text: var(--wood-darkest);
+    --background: var(--white);
+    --primary: var(--gold);
+    --secondary: var(--sky);
+}
